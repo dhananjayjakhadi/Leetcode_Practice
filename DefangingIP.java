@@ -6,6 +6,6 @@
 public class DefangingIP {
 
     public String defangIP(String address){
-        String str = address.replaceAll("\\.","[.]")
+        String s = address.replaceAll("\\.","[.]")
     }
 }
