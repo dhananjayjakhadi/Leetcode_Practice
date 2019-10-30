@@ -9,6 +9,7 @@ class BinaryInorderTraversal {
             s.push(p);
             p = p.left;
         }
+        
         while(!s.isEmpty()){
             TreeNode t = s.pop();
             result.add(t.val);
